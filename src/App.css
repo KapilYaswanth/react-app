@@ -1,4 +1,18 @@
 
+.home{
+  margin-top: -10px;
+  align-items: left;
+  justify-content: space-around;
+  text-align: justify;
+  align-content: left;
+  background: rgb(160, 171, 175);
+}
+.home p{
+  font-size: 1.2vw;
+  text-transform: initial;
+  line-height: 2.6;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .main-container {
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418) ), url('https://hdwallpaper20.com/wp-content/uploads/2017/07/wallpaper-wp4001752.jpg');
@@ -21,7 +35,7 @@ nav{
   align-items: center;
   display:flex;
   justify-content: space-around;
-  min-height: 10vh;
+  height: 8vh;
   background: #1e2432;
   color: white;
 }

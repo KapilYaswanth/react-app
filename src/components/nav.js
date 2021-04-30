@@ -4,11 +4,11 @@ export default function nav() {
     return (
         <div>
             <nav>
-                <h1>REACT PROJECTS</h1>
+                <Link to="/"><h1 style={{color:'white'}}>REACT PROJECTS</h1></Link>
                  <ul className="nav-Links">
-                  {/* <Link to="/home"><li>Home</li></Link>  */} 
-                     <Link  to="/weather"><h1><li style={{color:'white'}}>WEATHER APP</li></h1></Link>
-                    <Link to="/todoapp"><h1><li style={{color:'white'}}>TODO APP</li></h1></Link> 
+                 <Link to="/to-do-app"><h1><li style={{color:'white'}}>TODO APP</li></h1></Link> 
+                     <Link  to="/weather-app"><h1><li style={{color:'white'}}>WEATHER APP</li></h1></Link>
+                    
                 </ul> 
             </nav>
         </div>
